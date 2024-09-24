@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Izin INTERNET diperlukan untuk pengembangan -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="voice_matching"
+        tools:replace="android:icon, android:label, android:theme"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:supportsRtl="true">
+        <!-- Aktivitas lain jika diperlukan -->
+    </application>
+
+</manifest>
